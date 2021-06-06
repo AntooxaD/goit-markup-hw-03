@@ -116,14 +116,17 @@ body {
 .sectionHero {
   width: 1600px;
   margin: 0 auto;
+
   background-color: var(--box-color);
   text-align: center;
   padding: 200px;
+  padding-right: 452px;
 }
 /*заглавие*/
 .heading {
   color: var(--second-text-color);
-  font-weight: 900;
+
+  margin: 0 252px;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -290,8 +293,8 @@ Footer {
   background-color: var(--box-color);
   width: 1600px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logoFooter {
   display: inline-block;
