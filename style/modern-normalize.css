@@ -284,3 +284,11 @@ img {
   display: block;
   max-width: 100%;
 }
+a {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+ul {
+  margin: 0 auto;
+  padding: 0 auto;
+}
