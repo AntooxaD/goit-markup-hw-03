@@ -30,7 +30,7 @@ body {
   margin-right: -30px;
 }
 .boxHeader {
-  border-bottom: 2px var(--line-color) solid;
+  border-bottom: 1px var(--line-color) solid;
 }
 .mainNav {
   height: 80px;
@@ -77,7 +77,7 @@ body {
   text-decoration: none;
   color: var(--first-text-color);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
 }
 .social-links .list:not(:last-child) {
   margin-right: 50px;
@@ -98,10 +98,10 @@ body {
 
 .social-links-address .linkItem {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--adress-color);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
 }
 .social-links-address .list + .list {
   margin-left: 50px;
@@ -124,6 +124,7 @@ body {
   color: var(--second-text-color);
   width: 696px;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
 }
@@ -148,7 +149,7 @@ body {
   display: flex;
   padding-left: 0;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .social-button .list + .list {
   margin-left: 8px;
@@ -249,16 +250,17 @@ body {
   padding-bottom: 94px;
   margin: 0 auto;
 }
+.ourBoxTeam {
+  margin: 30px auto;
+}
 .ourTeam {
-  margin-top: 30px;
-  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
   margin-top: 30;
 }
 .aboutText {
-  margin-bottom: 30px;
+  margin-top: 10px;
   font-size: 16px;
   line-height: 1.1;
   color: var(--adress-color);
@@ -301,12 +303,10 @@ Footer {
   font-weight: bold;
   text-decoration: none;
   letter-spacing: 0.03em;
-  margin-top: 60px;
 }
 .addressFooter {
   padding-left: 0;
   margin-top: 9px;
-  padding-bottom: 60px;
 }
 .addressFooter .list + .list {
   margin-top: 9px;
@@ -317,9 +317,11 @@ Footer {
   font-style: normal;
   margin-top: 20px;
   margin-bottom: 0;
+  line-height: 1.7;
 }
 .linkFooter {
   color: var(--second_address-color);
   text-decoration: none;
   font-style: normal;
+  line-height: 1.7;
 }
